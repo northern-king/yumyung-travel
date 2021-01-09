@@ -173,4 +173,162 @@ header .btn-explore:hover {
     height: 500px;
   }
 }
+
+.nav-details {
+  background-color: #006bf7;
+}
+
+.nav-details .nav-item a {
+  color: lightgray !important;
+}
+
+.nav-details .nav-item a:hover {
+  color: #ffa100 !important;
+  border-bottom: 1px solid #ffa100;
+}
+
+.btn-details {
+  border: 1px solid #fff;
+}
+
+.btn-details:hover {
+  border: 1px solid #ffa100;
+  color: #ffa100;
+  background-color: transparent;
+}
+
+.section-details-header {
+  min-height: 330px;
+  background: #006bf7 !important;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -177px;
+  max-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  z-index: 99;
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: 300;
+  color: #b3b3b3;
+  cursor: crosshair;
+}
+
+.card-details {
+  overflow-x: scroll;
+  padding: 2rem;
+  border-radius: 11px;
+  height: 79vh;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.card-details:hover {
+  cursor: url(../img/arrow.svg), auto;
+}
+
+.card-details h1 {
+  font-size: 26px;
+}
+
+.card-details h2 {
+  font-size: 20px;
+}
+
+.card-details p {
+  font-size: 18px;
+  color: #9b9b9b;
+}
+
+.features {
+  margin-top: 20px;
+}
+
+.features h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.features p {
+  margin-bottom: 0;
+}
+
+.features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.features .features-image i {
+  color: #006bf7;
+  width: 45px;
+  height: auto;
+}
+
+.gallery .xzoom-container {
+  display: block;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.gallery .xzoom-container .xactive {
+  border: 3px solid #ffa100 !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.member .member-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  padding-left: -13px;
+}
+
+.card-right th {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.card-right td {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.join-container {
+  margin-top: 16px;
+}
+
+.btn-join-now {
+  background-color: #ffa100;
+  color: #fff;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.btn-join-now:hover {
+  color: #fff;
+  background-color: #006bf7;
+}
+
+.trip-information tr {
+  line-height: 40px;
+}
 /*# sourceMappingURL=main.css.map */
