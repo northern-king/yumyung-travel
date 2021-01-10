@@ -267,6 +267,113 @@ header {
     font-size: 18px;
     color: #9b9b9b;
   }
+
+  .trip-information {
+    line-height: 35px;
+    th {
+      font-weight: 300;
+      font-size: 15px;
+    }
+
+    td {
+      font-weight: 300;
+      font-size: 15px;
+      color: #b3b3b3;
+    }
+
+    .text-blue {
+      color: #006bf7;
+      font-weight: bold;
+    }
+
+    .text-orange {
+      color: #ffa100;
+      font-weight: bold;
+    }
+  }
+
+  .payment-instruction {
+    font-weight: 300;
+    font-size: 14px;
+    color: #b3b3b3;
+  }
+
+  .bank {
+    .bank-item {
+      h3 {
+        font-size: 15px;
+        margin-bottom: 0;
+      }
+
+      p {
+        margin-bottom: 0;
+      }
+
+      .description {
+        margin-left: 10px;
+        overflow: hidden;
+        float: left;
+
+        p {
+          font-weight: normal;
+          font-size: 15px;
+          color: #2e2e2e;
+        }
+      }
+    }
+
+    .bank-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+      align-content: center;
+      text-align: center;
+      align-items: center;
+      color: #006bf7;
+      background-color: #e9f3ff;
+      padding-top: 14px;
+      border-radius: 10px 10px 0 10px;
+    }
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .disclaimer {
+    font-weight: 300;
+    font-size: 14px;
+    color: #b3b3b3;
+  }
+
+  .gj-textbox-md {
+    padding-left: 13px;
+  }
+  .gj-datepicker {
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+
+    .datepicker {
+      border: none;
+    }
+
+    .input-group-append {
+      .btn {
+        padding-right: 30px;
+      }
+    }
+  }
+
+  .btn-add-now {
+    background-color: #006bf7;
+    color: #f5f5f5;
+
+    &:hover {
+      color: #006bf7;
+      background-color: #daeaff;
+    }
+  }
 }
 
 .features {
@@ -351,8 +458,36 @@ header {
   }
 }
 
-.trip-information {
-  tr {
-    line-height: 40px;
+.section-success {
+  height: 100vh;
+
+  img {
+    max-height: 40vh;
+    max-width: 80vw;
+    margin-bottom: 70px;
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: 26px;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+
+  .btn-home-page {
+    border-radius: 4px;
+    background-color: #0047a5;
+    color: #daeaff;
+    transition: 0.7s;
+
+    &:hover {
+      background-color: #daeaff;
+      color: #006bf7;
+      transform: translateY(-5px);
+    }
   }
 }
